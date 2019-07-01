@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Calcolatore Biglietto del treno</title>
 </head>
+
 <body>
   <div class="container">
-    <div id="chilometri">
+    <div>
+      <span>Chilometri: </span>
+      <span id="chilometri"> </span>
     </div>
-    <div id="prezzo-provvisorio"></div>
-    <div id="eta"></div>
-    <div id="prezzo-finale"></div>
+<div>
+  <span>Età: </span>
+    <span id="eta"></span>
+</div>
+<div>
+  <span>Prezzo provvisorio: </span> 
+  <span id="prezzo-provvisorio">0€</span>
+</div>
+    <hr>
+  <div>
+    <span>Prezzo finale: </span>
+    <span id="prezzo-finale">0€</span>
+   </div>
   </div>
-  
+
   <script src="app.js"></script>
 </body>
+
 </html>

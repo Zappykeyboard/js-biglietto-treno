@@ -15,12 +15,14 @@ var prezzoProvvisorio, sconto, prezzoScontato
 chilometri = parseInt(prompt("Inserisci i chilometri da percorrere, senza decimali"));
 campoChilometri.innerHTML = chilometri;
 
+eta = parseInt(prompt("Inserisci la tua età anagrafica"));
+campoEta.innerHTML = eta;
+
 prezzoProvvisorio = chilometri * prezzoAlKm;
 campoPrezzoProvvisorio.innerHTML = prezzoProvvisorio + "€";
 
 
-eta = parseInt(prompt("Inserisci la tua età anagrafica"));
-campoEta.innerHTML = eta;
+
 
 //determino se l'utente ha diritto ad uno sconto, e, se si, di quanto
 
