@@ -18,6 +18,7 @@ body{
   background: white;
   margin-top: 30vh;
   height: 30vh;
+  border-radius: 20px;
 }
 
 .flex-container{
