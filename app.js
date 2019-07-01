@@ -11,21 +11,20 @@ var chilometri, eta;
 var prezzoAlKm = 0.21;
 var prezzoProvvisorio, sconto, prezzoScontato
 
-//imposto i prompt
+//chiedo in # di chilometri
 chilometri = parseInt(prompt("Inserisci i chilometri da percorrere, senza decimali"));
 campoChilometri.innerHTML = chilometri;
 
+//chiedo l'età
 eta = parseInt(prompt("Inserisci la tua età anagrafica"));
 campoEta.innerHTML = eta;
 
+//calcolo e mostro il prezzo provvisorio
 prezzoProvvisorio = chilometri * prezzoAlKm;
 campoPrezzoProvvisorio.innerHTML = prezzoProvvisorio + "€";
 
 
-
-
 //determino se l'utente ha diritto ad uno sconto, e, se si, di quanto
-
 if (eta < 18) {
 
     //calcolo lo sconto del 20%
