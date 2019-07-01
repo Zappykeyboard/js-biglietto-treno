@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: gray
+}
+
+.container{
+  width: 40%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.label-container{
+  background: white;
+  margin-top: 30vh;
+  height: 30vh;
+}
+
+.flex-container{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+.label{
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+hr{
+  width: 80%;
+}
+
+#prezzo-finale{
+  color: green
+}
